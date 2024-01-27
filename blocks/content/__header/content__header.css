@@ -1,0 +1,15 @@
+.content__header {
+  color: #313131;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Merriweather;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  /* 66px */
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  white-space: pre-wrap;
+  text-align: start;
+}
