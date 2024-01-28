@@ -13,3 +13,8 @@
     line-height: 130%;
     padding: 20px;
 }
+
+.button__theme-white:hover {
+    background: #1F1F1F;
+    color: #FFF;
+}
