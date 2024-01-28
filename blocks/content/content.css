@@ -1,4 +1,6 @@
 .content{
   display: flex;
   flex-direction: column;
+  padding-bottom: 148px;
+  box-sizing: border-box;
 }
