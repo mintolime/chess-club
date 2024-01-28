@@ -9,5 +9,7 @@
 @import url('../blocks/content/__chess-img/content__chess-img.css');
 /*BUTTON */
 @import url('../blocks/button/button.css');
+@import url('../blocks/button/__theme-dark/button__theme-dark.css');
+@import url('../blocks/button/__theme-white/button__theme-white.css');
 /* ШАБЛОН */
 @import url('../blocks/');
