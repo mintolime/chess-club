@@ -18,21 +18,26 @@
     <title>Клуб четырех коней</title>
   </head>
   <body class="root">
-    <header class="header"></header>
-    <main class="main">
-      <section class="content">
-        <div class="content__info">
-          <h1 class="content__header">Превратите уездный город <span class="content__header_center-text">в столицу</span> земного шара</h1>
-          <p class="content__subtitle">
-            Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам
-          </p>
-        </div>
-        <div class="button button__box">
-          <button class="button__theme-dark">Поддержать шахматную мысль</button>
-          <button class="button__theme-white">Подробнее о турнире</button>
-        </div>
-      <!-- <img class="content__chess-img" src="./images/chess-main.png"/> -->
-      </section>
+    <div class="overlay">
+      <img class="overlay__background" src="./images/background-overlay.png"/>
+      <header class="header"></header>
+      <main class="main">
+        <section class="content">
+          <div class="content__info">
+            <h1 class="content__header">Превратите уездный город <span class="content__header_center-text">в столицу</span> земного шара</h1>
+            <p class="content__subtitle">
+              Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам
+            </p>
+          </div>
+          <div class="button button__box">
+            <button class="button__theme-dark">Поддержать шахматную мысль</button>
+            <button class="button__theme-white">Подробнее о турнире</button>
+          </div>
+       
+        </section>
+        <img class="overlay__chess-img" src="./images/chess-main.png"/>
+    </div>
+ 
       <marquee class="running-line" 
       behavior="scroll" direction="right" scrolldelay="60">&bull; Шахматы двигают вперёд не только культуру, но и экономику! &bull; Лёд тронулся, господа присяжные заседатели! &bull; Дело помощи утопающим — дело рук самих утопающих! &bull; </marquee>
     </main>

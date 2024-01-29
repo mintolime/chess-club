@@ -9,14 +9,16 @@
 @import url('../blocks/content/__header/_center-text/content__header_center-text.css');
 @import url('../blocks/content/__info/content__info.css');
 @import url('../blocks/content/__subtitle/content__subtitle.css');
-@import url('../blocks/content/__chess-img/content__chess-img.css');
 /*BUTTON */
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/__theme-dark/button__theme-dark.css');
 @import url('../blocks/button/__theme-white/button__theme-white.css');
 
 @import url('../blocks/running-line/running-line.css');
-
+/* OVERLAY  */
+@import url('../blocks/overlay/overlay.css');
+@import url('../blocks/overlay/__chess-img/overlay__chess-img.css');
+@import url('../blocks/overlay/__background/overlay__background.css');
 /* FOOTER */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__info/footer__info.css');

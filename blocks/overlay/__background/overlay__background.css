@@ -1,0 +1,7 @@
+.overlay__background{
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.2;
+}
