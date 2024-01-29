@@ -1,17 +1,32 @@
 .running-line {
-    width: 100vw;
-    margin: 0 -5vw;
-    /* height: 60px; */
-    background-color: #F54932;
-    color: #FFF;
-    text-align: right;
-    font-variant-numeric: lining-nums proportional-nums;
-    font-family: Merriweather;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 110%;
-    /* 24.2px */
-    text-transform: uppercase;
-    padding: 18px 0 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  background-color: #F54932; /* Цвет фона полосы */
+  overflow: hidden;
 }
+
+.running-line__text {
+  will-change: transform;
+  white-space: nowrap;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Merriweather;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #FFF; 
+  animation: marquee 30s linear infinite;
+  display: inline-block; /* Чтобы текст не переносился на новую строку */
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to { 
+    transform: translateX(-100%);
+  }
+}
+
