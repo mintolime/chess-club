@@ -2,13 +2,21 @@
 @import url('../blocks/header/header.css');
 
 /* MAIN */
-@import url('../blocks/main/main.css'); 
+@import url('../blocks/main/main.css');
+@import url('../blocks/main/__page/main__page.css');
+@import url('../blocks/main/__text/main__text.css');
+@import url('../blocks/main/__text/_important-red/main__text_important-red.css');
 /* CONTENT */
 @import url('../blocks/content/content.css');
 @import url('../blocks/content/__header/content__header.css');
 @import url('../blocks/content/__header/_center-text/content__header_center-text.css');
 @import url('../blocks/content/__info/content__info.css');
 @import url('../blocks/content/__subtitle/content__subtitle.css');
+
+/* AFISHA  */
+@import url('../blocks/afisha/afisha.css');
+@import url('../blocks/afisha/__info/afisha__info.css');
+@import url('../blocks/afisha/__img/afisha__img.css');
 /*BUTTON */
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/__theme-dark/button__theme-dark.css');

@@ -1,0 +1,10 @@
+.main__text_important-red {
+  color: #F54932;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Merriweather;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+  text-transform: uppercase;
+}
