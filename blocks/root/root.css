@@ -1,4 +1,6 @@
 .root {
+  position: relative;
+  width: 100%;
   max-width: 1366px;
   min-height: 700px;
   background: #e9ded4;

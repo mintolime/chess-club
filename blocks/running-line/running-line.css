@@ -1,7 +1,10 @@
 .running-line {
-  overflow: hidden;
-  white-space: nowrap;
   width: 100%;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
   background-color: #F54932; /* Цвет фона полосы */
   overflow: hidden;
 }
@@ -19,6 +22,8 @@
   color: #FFF; 
   animation: marquee 30s linear infinite;
   display: inline-block; /* Чтобы текст не переносился на новую строку */
+  padding: 0 18px;
+  margin: 0;
 }
 
 @keyframes marquee {
