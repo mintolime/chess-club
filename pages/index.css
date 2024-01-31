@@ -31,10 +31,12 @@
 
 /* STAGES  */
 @import url('../blocks/stages/stages.css');
+@import url('../blocks/stages/__info/stages__info.css');
 @import url('../blocks/stages/__header/stages__header.css');
 @import url('../blocks/stages/__lists/stages__lists.css');
 @import url('../blocks/stages/__list/stages__list.css');
 @import url('../blocks/stages/__numder/stages__numder.css');
+@import url('../blocks/stages/__list/_text/stages__list-text.css');
 /* FOOTER */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__info/footer__info.css');
