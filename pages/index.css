@@ -36,8 +36,8 @@
 @import url('../blocks/stages/__header/stages__header.css');
 @import url('../blocks/stages/__lists/stages__lists.css');
 @import url('../blocks/stages/__list/stages__list.css');
+@import url('../blocks/stages/__list/_text/stages__list_text.css');
 @import url('../blocks/stages/__numder/stages__numder.css');
-@import url('../blocks/stages/__list/_text/stages__list-text.css');
 
 /* PARTICIPANTS */
 @import url('../blocks/participants/__box/participants__box.css');
