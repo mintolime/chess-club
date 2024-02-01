@@ -20,8 +20,9 @@
 @import url('../blocks/afisha/__img/afisha__img.css');
 /*BUTTON */
 @import url('../blocks/button/button.css');
-@import url('../blocks/button/__theme-dark/button__theme-dark.css');
-@import url('../blocks/button/__theme-white/button__theme-white.css');
+@import url('../blocks/button/__theme/-dark/button__theme-dark.css');
+@import url('../blocks/button/__theme/-white/button__theme-white.css');
+@import url('../blocks/button/__type/_link/button__type_link.css');
 
 @import url('../blocks/running-line/running-line.css');
 /* OVERLAY  */
@@ -40,6 +41,11 @@
 
 /* PARTICIPANTS */
 @import url('../blocks/participants/__box/participants__box.css');
+@import url('../blocks/participants/__list/participants__list.css');
+@import url('../blocks/participants/__lists/participants__lists.css');
+@import url('../blocks/participants/__name/participants__name.css');
+@import url('../blocks/participants/__about/participants__about.css');
+@import url('../blocks/participants/__img/participants__img.css');
 /* FOOTER */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__info/footer__info.css');
