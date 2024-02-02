@@ -29,7 +29,7 @@
 @import url('../blocks/button/__theme/-white/button__theme-white.css');
 @import url('../blocks/button/__type/_move/button__type_move.css');
 @import url('../blocks/button/__type/_link/button__type_link.css');
-
+@import url('../blocks/button/__type/_size_m/button__type_size_m.css');
 @import url('../blocks/running-line/running-line.css');
 /* OVERLAY  */
 @import url('../blocks/overlay/overlay.css');
