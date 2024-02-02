@@ -1,0 +1,6 @@
+.stages__plane{
+  position: absolute;
+  bottom: -15px;
+  right: -50px;
+  /* transform: translate(72%,-39%); */
+}
