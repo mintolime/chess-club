@@ -16,12 +16,18 @@
 
 /* AFISHA  */
 @import url('../blocks/afisha/afisha.css');
+@import url('../blocks/afisha/__bender/afisha__bender.css');
 @import url('../blocks/afisha/__info/afisha__info.css');
 @import url('../blocks/afisha/__img/afisha__img.css');
+@import url('../blocks/afisha/__img/_bender/afisha__img_bender.css');
+@import url('../blocks/afisha/__table/afisha__table.css');
+@import url('../blocks/afisha/__cell/afisha__cell.css');
+@import url('../blocks/afisha/__table/_border-none/afisha__table_border-none.css');
 /*BUTTON */
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/__theme/-dark/button__theme-dark.css');
 @import url('../blocks/button/__theme/-white/button__theme-white.css');
+@import url('../blocks/button/__type/_move/button__type_move.css');
 @import url('../blocks/button/__type/_link/button__type_link.css');
 
 @import url('../blocks/running-line/running-line.css');

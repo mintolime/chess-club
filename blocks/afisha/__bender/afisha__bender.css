@@ -1,0 +1,20 @@
+.afisha__bender {
+  display: grid;
+  grid-template-columns: 474px 1fr;
+  grid-template-rows: 147px 1fr;
+  grid-column-gap: 44px;
+  grid-row-gap: 0px;
+  padding-bottom: 200px;
+  }
+  
+  .afisha__bender > p {
+     grid-area: 1 / 2 / 2 / 3; 
+  }
+
+  .afisha__bender > table {
+    grid-area: 2 / 2 / 3 / 3;
+ }
+
+ .afisha__bender > a {
+  grid-area: 3 / 2 / 4 / 3;
+}
