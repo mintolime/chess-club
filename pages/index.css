@@ -54,6 +54,7 @@
 @import url('../blocks/participants/__name/participants__name.css');
 @import url('../blocks/participants/__about/participants__about.css');
 @import url('../blocks/participants/__img/participants__img.css');
+@import url('../blocks/participants/__count/participants__count.css');
 /* FOOTER */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__info/footer__info.css');
