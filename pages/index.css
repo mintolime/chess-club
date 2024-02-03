@@ -25,6 +25,7 @@
 @import url('../blocks/afisha/__table/_border-none/afisha__table_border-none.css');
 /*BUTTON */
 @import url('../blocks/button/button.css');
+@import url('../blocks/button/__box/button__box.css');
 @import url('../blocks/button/__theme/-dark/button__theme-dark.css');
 @import url('../blocks/button/__theme/-white/button__theme-white.css');
 @import url('../blocks/button/__type/_move/button__type_move.css');
