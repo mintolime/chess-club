@@ -1,5 +1,5 @@
-.button__box{
-    display: flex;
-    gap:16px;
-    align-items: center;
+.button__box {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }

@@ -10,6 +10,6 @@
   text-transform: uppercase;
   padding: 0;
   margin: 0;
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
   text-align: start;
 }

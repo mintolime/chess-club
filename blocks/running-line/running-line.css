@@ -5,7 +5,8 @@
   display: flex;
   align-items: center;
   white-space: nowrap;
-  background-color: #F54932; /* Цвет фона полосы */
+  background-color: #F54932;
+  /* Цвет фона полосы */
   overflow: hidden;
 }
 
@@ -19,9 +20,10 @@
   font-weight: 400;
   line-height: 110%;
   text-transform: uppercase;
-  color: #FFF; 
+  color: #FFF;
   animation: marquee 30s linear infinite;
-  display: inline-block; /* Чтобы текст не переносился на новую строку */
+  display: inline-block;
+  /* Чтобы текст не переносился на новую строку */
   padding: 0 18px;
   margin: 0;
 }
@@ -30,8 +32,8 @@
   from {
     transform: translateX(0);
   }
-  to { 
+
+  to {
     transform: translateX(-100%);
   }
 }
-

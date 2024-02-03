@@ -1,8 +1,8 @@
 .participants__lists {
-    display: flex;
-    column-gap: 20px;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    padding: 60px 0 140px;
+  display: flex;
+  column-gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding: 60px 0 140px;
 }
