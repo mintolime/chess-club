@@ -26,11 +26,12 @@
 /*BUTTON */
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/__box/button__box.css');
+@import url('../blocks/button/__box/_flex-column/button__box_flex-column.css');
+@import url('../blocks/button/__theme/button__theme.css');
 @import url('../blocks/button/__theme/-dark/button__theme-dark.css');
 @import url('../blocks/button/__theme/-white/button__theme-white.css');
 @import url('../blocks/button/__type/_move/button__type_move.css');
 @import url('../blocks/button/__type/_link/button__type_link.css');
-@import url('../blocks/button/__type/_size_m/button__type_size_m.css');
 @import url('../blocks/running-line/running-line.css');
 /* OVERLAY  */
 @import url('../blocks/overlay/overlay.css');
@@ -60,3 +61,13 @@
 @import url('../blocks/footer/__info/footer__info.css');
 /* ШАБЛОН */
 @import url('../blocks/');
+
+
+/* 
+@media screen and (max-width: 376px) {
+   {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+} 
+*/
