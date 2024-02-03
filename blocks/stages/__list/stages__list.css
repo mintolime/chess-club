@@ -1,0 +1,11 @@
+.stages__list {
+  display: inline-flex;
+  /* justify-content: center; */
+  align-items: start;
+  gap: 10px;
+  background: #e9ded4;
+  /* 24px */
+  list-style-type: none;
+  padding: 20px;
+  box-sizing: border-box;
+}

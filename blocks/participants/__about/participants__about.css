@@ -1,0 +1,13 @@
+.participants__about {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  /* identical to box height, or 24px */
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #313131;
+  opacity: 0.6;
+  padding: 0 0 20px;
+  margin: 0;
+}

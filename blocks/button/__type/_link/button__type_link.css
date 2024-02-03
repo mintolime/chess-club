@@ -1,0 +1,20 @@
+.button__type_link {
+  max-width: 113px;
+  font-family: Golos Text;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #3057A2;
+  background-color: #fff;
+  border-radius: 62px;
+  border: 1px #3057A2 solid;
+  margin: auto;
+  padding: 12px;
+}
+
+.button__type_link:hover {
+  color: #fff;
+  background-color: #3057A2;
+}

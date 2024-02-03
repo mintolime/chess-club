@@ -1,0 +1,18 @@
+.button__theme-white {
+  border-radius: 66px;
+  border: 2px solid #1F1F1F;
+  background-color: inherit;
+  color: #1F1F1F;
+  text-align: center;
+  font-family: "Golos Text";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  padding: 20px 50px;
+}
+
+.button__theme-white:hover {
+  background: #1F1F1F;
+  color: #FFF;
+}

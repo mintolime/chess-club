@@ -1,0 +1,18 @@
+.button__theme-dark {
+  border-radius: 66px;
+  background: #1F1F1F;
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos Text";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  padding: 20px 50px;
+}
+
+.button__theme-dark:hover {
+  background: #FBCE51;
+  color: #1F1F1F;
+  border: none;
+}

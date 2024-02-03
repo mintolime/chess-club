@@ -1,0 +1,8 @@
+.afisha {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 106px;
+  flex-wrap: wrap;
+  padding-bottom: 64px;
+  padding-top: 80px;
+}

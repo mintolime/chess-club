@@ -1,0 +1,6 @@
+.participants__list {
+  display: grid;
+  grid-template-columns: minmax(335px, 394px);
+  justify-content: center;
+  text-align: center;
+}

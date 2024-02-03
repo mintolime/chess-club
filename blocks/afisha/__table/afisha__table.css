@@ -1,0 +1,15 @@
+.afisha__table {
+  display: block;
+  padding-top: 42px;
+  /* padding-bottom: 48px; */
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #313131;
+  text-align: left;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}

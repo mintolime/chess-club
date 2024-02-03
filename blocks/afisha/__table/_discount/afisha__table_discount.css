@@ -1,0 +1,10 @@
+.afisha__table_discount {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #313131;
+  text-decoration: line-through;
+  text-decoration-color: #F54932;
+  text-transform: none;
+}

@@ -1,0 +1,5 @@
+.content__info {
+  max-width: 543px;
+  display: flex;
+  flex-direction: column;
+}

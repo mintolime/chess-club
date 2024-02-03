@@ -1,0 +1,6 @@
+.afisha__img {
+  width: 100%;
+  max-width: 394px;
+  object-fit: contain;
+  grid-area: 1 / 1 / 4 / 2;
+}

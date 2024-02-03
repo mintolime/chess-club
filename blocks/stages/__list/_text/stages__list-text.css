@@ -1,0 +1,13 @@
+.stages__list-text {
+  max-width: 436px;
+  width: fit-content;
+  color: #313131;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: "Golos Text";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  margin: 0;
+  padding: 0;
+}
