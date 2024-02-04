@@ -8,3 +8,10 @@
   line-height: 135%;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 376px) {
+  .main__text_important-red{
+    font-size: 28px;
+    line-height: 38px; 
+ }
+} 

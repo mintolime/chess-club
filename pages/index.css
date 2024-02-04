@@ -16,8 +16,10 @@
 
 /* AFISHA  */
 @import url('../blocks/afisha/afisha.css');
+@import url('../blocks/afisha/__tourney/afisha__tourney.css');
 @import url('../blocks/afisha/__bender/afisha__bender.css');
 @import url('../blocks/afisha/__info/afisha__info.css');
+@import url('../blocks/afisha/__row/afisha__row.css');
 @import url('../blocks/afisha/__img/afisha__img.css');
 @import url('../blocks/afisha/__img/_bender/afisha__img_bender.css');
 @import url('../blocks/afisha/__table/afisha__table.css');

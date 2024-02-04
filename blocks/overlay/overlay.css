@@ -8,8 +8,11 @@
   z-index: -1;
 }
 
-/* @media screen and (max-width: 376px) {
+@media screen and (max-width: 376px) {
   .overlay {
-    background: url('./../../images/background-overlay-mob.png');
+    top: -4%;
+    left: -1px;
+    background: url('./../../images/background-overlay-mob.png') no-repeat;
+    background-size:contain;
   }
-} */
+}

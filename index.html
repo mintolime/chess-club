@@ -46,8 +46,12 @@
 						Подробнее о турнире
 					</button>
 				</div>
-				<div class="overlay"></div>
-				<!-- <img class="overlay__chess-img" src="./images/chess-main-mobi.png" /> -->
+				<div class="overlay">
+							<!-- <img class="overlay__chess-img" src="./images/background-overlay.png" /> -->
+					<!-- <img class="overlay__chess-img" src="./images/background-overlay-mob.png" /> -->
+				</div>
+				<!-- <img class="overlay__chess-img" src="./images/background-overlay-mob.png" /> -->
+				<!-- <img class="overlay__chess-img" src="./images/background-overlay.png" /> -->
 			</section>
 
 			<div class="running-line">
@@ -73,15 +77,20 @@
 				</p>
 			</div>
 
-			<section class="afisha main__page">
-				<p class="afisha__info main__text">
-					Чтобы поддержать Международный васюкинский турнир посетите лекцию
+			<section class="afisha afisha__tourney main__page">
+				<p class="afisha__info main__text" id="afisha__tourney">
+					Чтобы поддержать Международный васюкинский турнир 
+				</p>
+
+				<p  id="afisha__lection" class="afisha__info main__text"> посетите лекцию
 					на тему:
 					<span class="main__text_important-red">
 						«Плодотворная дебютная идея»
 					</span>
 				</p>
-				<img
+
+				<img 
+				id="afisha__img-tourney"
 					src="./images/chess_players.png"
 					alt="шахматисты"
 					class="afisha__img"
@@ -95,7 +104,7 @@
 					</span>
 					гроссмейстера О. Бендера
 				</p>
-				<img
+				<img 
 					src="./images/chess-main-afisha.png"
 					alt="фото афишы с шахматистом"
 					class="afisha__img_bender"

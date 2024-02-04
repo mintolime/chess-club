@@ -11,3 +11,10 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 376px) {
+  .stages__header {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}

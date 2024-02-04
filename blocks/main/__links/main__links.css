@@ -15,3 +15,12 @@
   display: inline-block;
   max-width: 260px;
 }
+
+@media screen and (max-width: 376px) {
+  .main__links {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px; 
+  }
+}

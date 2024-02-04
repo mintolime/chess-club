@@ -19,3 +19,25 @@
 .afisha__bender>a {
   grid-area: 3 / 2 / 4 / 3;
 }
+
+@media screen and (max-width: 936px) {
+  .afisha__bender {
+    grid-column-gap: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+    padding-bottom: 120px;
+  }
+
+  .afisha__bender>p {
+    grid-area: 2 / 2 / 2 / 3;
+  }
+
+  .afisha__bender>table {
+    grid-area: 3 / 2 / 3 / 3;
+  }
+
+  .afisha__bender>a {
+    grid-area: 4 / 2 / 4 / 3;
+  }
+}
+

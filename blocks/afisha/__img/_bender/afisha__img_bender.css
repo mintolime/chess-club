@@ -5,3 +5,10 @@
   grid-area: 1 / 1 / 4 / 2;
   object-position: bottom;
 }
+
+@media screen and (max-width: 936px) {
+  .afisha__img_bender {
+    object-fit: contain;
+    grid-area: 1 / 1/ 2 / 3;
+  }
+}
