@@ -12,8 +12,9 @@
   margin: 0;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 680px) {
   .stages__header {
+    max-width: 335px;
     font-size: 36px;
     line-height: 40px;
   }

@@ -51,7 +51,8 @@
 /* @import url('../blocks/stages/__list/_with_plane/stages__list_with_plane.css'); */
 @import url('../blocks/stages/__plane/stages__plane.css');
 /* PARTICIPANTS */
-@import url('../blocks/participants/__box/participants__box.css');
+@import url('../blocks/participants/participants.css');
+/* @import url('../blocks/participants/__box/participants__box.css'); */
 @import url('../blocks/participants/__list/participants__list.css');
 @import url('../blocks/participants/__lists/participants__lists.css');
 @import url('../blocks/participants/__name/participants__name.css');
