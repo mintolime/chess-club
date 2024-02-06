@@ -2,3 +2,9 @@
   object-fit: cover;
   margin: auto;
 }
+
+@media screen and (max-width: 376px) {
+  .participants__img {
+    width: 240px;
+  }
+}

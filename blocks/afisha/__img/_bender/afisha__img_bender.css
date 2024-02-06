@@ -9,6 +9,7 @@
 @media screen and (max-width: 936px) {
   .afisha__img_bender {
     object-fit: contain;
+    padding-bottom: 32px;
     grid-area: 1 / 1/ 2 / 3;
   }
 }
