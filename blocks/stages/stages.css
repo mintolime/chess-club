@@ -4,3 +4,13 @@
   gap: 54px;
   padding-bottom: 200px;
 }
+
+#stages_btn{
+  display: none;
+}
+
+@media screen and (max-width: 680px) {
+  #stages_btn {
+   display: flex;
+  }
+}

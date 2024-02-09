@@ -11,7 +11,6 @@
 
 #participants_btn {
   max-width: 330px;
-  justify-content: center;
   grid-area: participants_btn;
 }
 
@@ -21,6 +20,10 @@
 
 .participants>ul {
   grid-area: participants__lists;
+}
+
+.participants__count_span{
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 680px) {

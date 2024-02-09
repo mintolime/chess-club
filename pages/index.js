@@ -1,68 +1,132 @@
 
 document.addEventListener("DOMContentLoaded", function () {
   const containerParticipants = document.querySelector(".participants__lists");
-  const cards = document.querySelectorAll(".participants__list");
+
+  const cardsStages = document.querySelectorAll(".stages__list_slider");
+  const cardStagesDots = document.querySelector(".button__items")
+  const cardsParticipants = document.querySelectorAll(".participants__list");
+  const totalCardsStages = document.querySelectorAll(".stages__lists_slider").length;
   const totalCards = document.querySelectorAll(".participants__list").length;
+  const countOutput = document.querySelector(".participants__count");
+  const countAll = document.querySelector(".participants__count_span");
   const prevButton = document.querySelector("#rigth");
   const nextButton = document.querySelector("#left");
+  const prevButtonStages = document.querySelector("#stages_rigth");
+  const nextButtonStages = document.querySelector("#stages_left");
 
-  let currentIndex = 0;
+  let currentIndexParticipants = 0;
+  let currentIndexStages = 0;
+  let totalCardsStagesCope = 5;
   let firstCardIndex = 1;
-  const disableBtn = (currentCount,totalCount,btn) => currentCount === totalCount ? btn.disabled = true : btn.disabled = false
+  const disableBtn = (currentCount, totalCount, btn) => currentCount === totalCount ? btn.disabled = true : btn.disabled = false
 
-  function updateUI(data) {
-    const currentCount = currentIndex + 1
-    const countOutput = document.querySelector(".participants__count");
-    countOutput.textContent = `${currentCount}/${totalCards}`; 
-    // disableBtn(currentCount,totalCards,nextButton)
-    disableBtn(currentCount,firstCardIndex,prevButton)
+  cardStagesDots.innerHTML = '';
 
-    if(data){
-      data.forEach((item, index) => {
-        if (index === currentIndex) {
+  for (let i = 0; i < totalCardsStagesCope; i++) {
+    const spanElement = document.createElement('span');
+    spanElement.classList.add('button__dots');
+    cardStagesDots.appendChild(spanElement);
+  }
+
+  function updateUIParticipants() {
+    const currentCount = currentIndexParticipants + 1
+
+    countOutput.textContent = currentCount
+    countAll.textContent = `${'/ ' + totalCards}`
+
+    disableBtn(currentCount, totalCards, nextButton)
+    disableBtn(currentCount, firstCardIndex, prevButton)
+
+    if (cardsParticipants) {
+      cardsParticipants.forEach((item, index) => {
+        if (index === currentIndexParticipants) {
           item.classList.add("active");
         } else {
           item.classList.remove("active");
         }
       })
-      
-      calcTransform(containerParticipants)
+
+      calcTransformParticipants()
     }
   }
 
-  function changeSlide(direction) {
-    if(direction ==='next'){ 
-      currentIndex++
-      if(currentIndex === totalCards)
-        {
-          currentIndex = 0
-        }
-    } else if(direction ==='prev'){
-      console.log(currentIndex)
-      currentIndex--
-      if(currentIndex < 0){
-        currentIndex = totalCards -1
+  function updateUIStages() {
+    const currentCount = currentIndexStages + 1
+    disableBtn(currentCount, totalCardsStagesCope, nextButtonStages)
+    disableBtn(currentCount, firstCardIndex, prevButtonStages)
+
+    cardsStages.forEach((item, index) => {
+      if (index === currentIndexStages) {
+        item.classList.add("stages__list_slider_active");
+      } else {
+        item.classList.remove("stages__list_slider_active");
       }
-    }
-    updateUI(cards);
+    });
+
+    // Обновляем активную точку
+    const dots = cardStagesDots.querySelectorAll('.button__dots');
+    dots.forEach((dot, index) => {
+      if (index === currentIndexStages) {
+        dot.classList.add('button__dots_active');
+      } else {
+        dot.classList.remove('button__dots_active');
+      }
+    });
   }
 
-  const calcTransform = (container) => {
-    const width = document.body.clientWidth;
-    if(width <= 485){
-      index = 19
-    } else{
-      index = 25
+  function changeSlide(direction, index, totalItem) {
+    let newIndex = index;
+    if (direction === 'next') {
+      newIndex++;
+    } else if (direction === 'prev') {
+      newIndex--;
     }
-    container.style.transform = `translateX(-${currentIndex  * index}%)`;
+    return newIndex;
+  }
+
+  const calcTransformParticipants = () => {
+    if (cardsParticipants.length > 0) {
+      const slideWidth = cardsParticipants[0].clientWidth;
+      let translateValue = -currentIndexParticipants * slideWidth;
+
+      containerParticipants.style.transition = 'transform 0.3s ease';
+      containerParticipants.style.transform = `translateX(${translateValue}px)`;
+    }
   }
 
   window.addEventListener("resize", () => {
-    updateUI(cards);
+    updateUIParticipants();
+    updateUIStages();
   });
 
-  prevButton.addEventListener("click", () => changeSlide("prev"));
-  nextButton.addEventListener("click", () => changeSlide("next"));
+  prevButton.addEventListener("click", () => {
+    currentIndexParticipants = changeSlide("prev", currentIndexParticipants, totalCards);
+    updateUIParticipants();
+  });
+  nextButton.addEventListener("click", () => {
+    currentIndexParticipants = changeSlide("next", currentIndexParticipants, totalCards);
+    updateUIParticipants();
+  });
 
-  updateUI(cards);
+
+  const dots = cardStagesDots.querySelectorAll('.button__dots');
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      currentIndexStages = index;
+      updateUIStages();
+    });
+  });
+
+  prevButtonStages.addEventListener("click", () => {
+    currentIndexStages = changeSlide("prev", currentIndexStages, totalCardsStages);
+    updateUIStages();
+  });
+
+  nextButtonStages.addEventListener("click", () => {
+    currentIndexStages = changeSlide("next", currentIndexStages, totalCardsStages);
+    updateUIStages();
+  });
+
+  updateUIParticipants();
+  updateUIStages();
 });
