@@ -20,5 +20,6 @@
 
   .stages__list_slider_active {
     display: flex;
+    padding-top: 62px;
   }
 }

@@ -6,9 +6,6 @@
 
 @media screen and (max-width: 376px) {
   .stages__plane {
-    width: 317.2px;
-    height: 123.75px;
-    top: -25%;
-    right: -10%;
+    display: none;
   }
 }

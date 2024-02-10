@@ -18,16 +18,23 @@ document.addEventListener("DOMContentLoaded", function () {
   let currentIndexStages = 0;
   let totalCardsStagesCope = 5;
   let firstCardIndex = 1;
+
+  //  функция для блокировки кнопки
   const disableBtn = (currentCount, totalCount, btn) => currentCount === totalCount ? btn.disabled = true : btn.disabled = false
 
-  cardStagesDots.innerHTML = '';
+  // функция отрисовки точек в слайде блока Stages
+  function createStagesDots() {
+    cardStagesDots.innerHTML = '';
 
-  for (let i = 0; i < totalCardsStagesCope; i++) {
-    const spanElement = document.createElement('span');
-    spanElement.classList.add('button__dots');
-    cardStagesDots.appendChild(spanElement);
+    for (let i = 0; i < totalCardsStagesCope; i++) {
+      const spanElement = document.createElement('span');
+      spanElement.classList.add('button__dots');
+      cardStagesDots.appendChild(spanElement);
+    }
+    return cardStagesDots
   }
 
+  // обновление блока Participants
   function updateUIParticipants() {
     const currentCount = currentIndexParticipants + 1
 
@@ -49,8 +56,9 @@ document.addEventListener("DOMContentLoaded", function () {
       calcTransformParticipants()
     }
   }
-
+  // обновление блока Stages
   function updateUIStages() {
+    const dots = cardStagesDots.querySelectorAll('.button__dots');
     const currentCount = currentIndexStages + 1
     disableBtn(currentCount, totalCardsStagesCope, nextButtonStages)
     disableBtn(currentCount, firstCardIndex, prevButtonStages)
@@ -64,7 +72,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Обновляем активную точку
-    const dots = cardStagesDots.querySelectorAll('.button__dots');
     dots.forEach((dot, index) => {
       if (index === currentIndexStages) {
         dot.classList.add('button__dots_active');
@@ -127,6 +134,7 @@ document.addEventListener("DOMContentLoaded", function () {
     updateUIStages();
   });
 
+  createStagesDots()
   updateUIParticipants();
   updateUIStages();
 });

@@ -36,8 +36,8 @@
 					</p>
 				</div>
 				<div class="button button__box button__box_flex-column">
-					<button class="button__theme button__theme-dark">Поддержать шахматную мысль</button>
-					<button class="button__theme button__theme-white">Подробнее о турнире</button>
+					<button class="button__theme button__theme-dark" ><a class="main__link" href="#support">Поддержать шахматную мысль</a></button>
+					<button class="button__theme button__theme-white"><a class="main__link" href="#more_abour_turnir">Подробнее о турнире</a></button>
 				</div>
 				<div class="overlay"></div>
 			</section>
@@ -60,7 +60,7 @@
 					заседатели! &bull; Дело помощи утопающим — дело рук самих утопающих!
 				</p>
 			</div>
-			<section class="afisha afisha__tourney main__page" aria-label="блок афиши турнира">
+			<section class="afisha afisha__tourney main__page" aria-label="блок афиши турнира" id="support">
 				<p class="afisha__info main__text" id="afisha__tourney">Чтобы поддержать Международный васюкинский турнир</p>
 				<p id="afisha__lection" class="afisha__info main__text">
 					посетите лекцию на тему:
@@ -105,7 +105,7 @@
 				</table>
 				<a href="#" class="main__links">По всем вопросам обращаться в администрацию к К. Михельсону</a>
 			</section>
-			<section class="stages main__page">
+			<section class="stages main__page" id="more_abour_turnir">
 				<div class="stages__info">
 					<h2 class="stages__header">
 						Этапы преображения Васюков
@@ -165,32 +165,43 @@
 						</div>
 					</li>
 					<li class="stages__list_slider">
-						<span class="stages__numder">3</span>
-						<p class="stages__list-text">
-							Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры,
-							шоколадных конфет
-						</p>
+            <div class="stages__list_item">
+              <span class="stages__numder">3</span>
+              <p class="stages__list-text">
+                Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры,
+                шоколадных конфет
+              </p>
+            </div>
 					</li>
 					<li class="stages__list_slider">
-						<span class="stages__numder">4</span>
+            <div class="stages__list_item">
+              <span class="stages__numder">4</span>
 						<p class="stages__list-text">Строительство дворца для турнира</p>
-						<span class="stages__numder">5</span>
-						<p class="stages__list-text">Размещение гаражей для гостевого автотранспорта</p>
+            </div>
+						<div class="stages__list_item">
+              <span class="stages__numder">5</span>
+              <p class="stages__list-text">Размещение гаражей для гостевого автотранспорта</p>
+            </div>
+		
 					</li>
 
 					<li class="stages__list_slider">
-						<span class="stages__numder">6</span>
-						<p class="stages__list-text">
-							Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов
-						</p>
+            <div class="stages__list_item">
+              <span class="stages__numder">6</span>
+              <p class="stages__list-text">
+                Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов
+              </p>
+            </div>
 					</li>
 					<li class="stages__list_slider">
-						<span class="stages__numder">7</span>
-						<p class="stages__list-text">
-							Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы
-							света, включая Лос-Анжелос и Мельбурн
-						</p>
-						<img src="./images/plane.png" alt="самолет" class="stages__plane" />
+            <div class="stages__list_item">
+              <span class="stages__numder">7</span>
+              <p class="stages__list-text">
+                Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы
+                света, включая Лос-Анжелос и Мельбурн
+              </p>
+              <img src="./images/plane.png" alt="самолет" class="stages__plane" />
+            </div>
 					</li>
 				</ul>
 				<div id="stages_btn_box" class="button__box">

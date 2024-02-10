@@ -8,6 +8,7 @@
 @import url('../blocks/main/__page/main__page.css');
 @import url('../blocks/main/__text/main__text.css');
 @import url('../blocks/main/__links/main__links.css');
+@import url('../blocks/main/__link/main__link.css');
 @import url('../blocks/main/__text/_important-red/main__text_important-red.css');
 /* CONTENT */
 @import url('../blocks/content/content.css');
