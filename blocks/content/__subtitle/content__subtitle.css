@@ -11,4 +11,11 @@
   padding: 24px 0 40px;
   margin: 0;
   box-sizing: border-box;
+  letter-spacing: 0px;
+}
+
+@media screen and (max-width: 376px) {
+  .content__subtitle {
+    padding-bottom: 32px;
+  }
 }

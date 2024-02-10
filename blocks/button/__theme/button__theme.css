@@ -1,0 +1,20 @@
+.button__theme {
+  width: 263px;
+  border-radius: 66px;
+  text-align: center;
+  font-family: "Golos Text";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  padding: 20px 50px;
+  border: none;
+}
+
+@media screen and (max-width: 376px) {
+  .button__theme {
+    width: 100%;
+    height: 49px;
+    padding: 14px 43px;
+  }
+}

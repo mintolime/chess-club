@@ -1,6 +1,8 @@
+@import url('../vendor/normalize.css');
 @import url('../blocks/root/root.css');
+/* HEADER  */
 @import url('../blocks/header/header.css');
-
+@import url('../blocks/header/__icon/header__icon.css');
 /* MAIN */
 @import url('../blocks/main/main.css');
 @import url('../blocks/main/__page/main__page.css');
@@ -16,8 +18,10 @@
 
 /* AFISHA  */
 @import url('../blocks/afisha/afisha.css');
+@import url('../blocks/afisha/__tourney/afisha__tourney.css');
 @import url('../blocks/afisha/__bender/afisha__bender.css');
 @import url('../blocks/afisha/__info/afisha__info.css');
+@import url('../blocks/afisha/__row/afisha__row.css');
 @import url('../blocks/afisha/__img/afisha__img.css');
 @import url('../blocks/afisha/__img/_bender/afisha__img_bender.css');
 @import url('../blocks/afisha/__table/afisha__table.css');
@@ -26,11 +30,12 @@
 /*BUTTON */
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/__box/button__box.css');
+@import url('../blocks/button/__box/_flex-column/button__box_flex-column.css');
+@import url('../blocks/button/__theme/button__theme.css');
 @import url('../blocks/button/__theme/-dark/button__theme-dark.css');
 @import url('../blocks/button/__theme/-white/button__theme-white.css');
 @import url('../blocks/button/__type/_move/button__type_move.css');
 @import url('../blocks/button/__type/_link/button__type_link.css');
-@import url('../blocks/button/__type/_size_m/button__type_size_m.css');
 @import url('../blocks/running-line/running-line.css');
 /* OVERLAY  */
 @import url('../blocks/overlay/overlay.css');
@@ -45,10 +50,11 @@
 @import url('../blocks/stages/__list/stages__list.css');
 @import url('../blocks/stages/__numder/stages__numder.css');
 @import url('../blocks/stages/__list/_text/stages__list-text.css');
-@import url('../blocks/stages/__list/_with_plane/stages__list_with_plane.css');
+/* @import url('../blocks/stages/__list/_with_plane/stages__list_with_plane.css'); */
 @import url('../blocks/stages/__plane/stages__plane.css');
 /* PARTICIPANTS */
-@import url('../blocks/participants/__box/participants__box.css');
+@import url('../blocks/participants/participants.css');
+/* @import url('../blocks/participants/__box/participants__box.css'); */
 @import url('../blocks/participants/__list/participants__list.css');
 @import url('../blocks/participants/__lists/participants__lists.css');
 @import url('../blocks/participants/__name/participants__name.css');
@@ -60,3 +66,13 @@
 @import url('../blocks/footer/__info/footer__info.css');
 /* ШАБЛОН */
 @import url('../blocks/');
+
+
+/* 
+@media screen and (max-width: 376px) {
+   {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+} 
+*/

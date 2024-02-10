@@ -5,3 +5,10 @@
   box-sizing: border-box;
   background-color: #fff;
 }
+
+@media screen and (max-width: 376px) {
+  .main__page {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+}

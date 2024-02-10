@@ -4,3 +4,11 @@
   margin: 0;
   letter-spacing: 0px;
 }
+
+#afisha__lection{ 
+  grid-area: afisha__lection;
+}
+
+#afisha__tourney{
+  grid-area: afisha__tourney;
+}

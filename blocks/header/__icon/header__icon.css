@@ -1,0 +1,6 @@
+@media screen and (max-width: 376px) {
+  .header__icon {
+    width: 213px;
+    height: 32px;
+  }
+}

@@ -11,3 +11,9 @@
   background-color: #D6D6D6;
   color: #fff;
 }
+@media screen and (max-width: 376px) {
+  .button__type_move {
+    width: 36px;
+    height: 36px;
+ }
+} 

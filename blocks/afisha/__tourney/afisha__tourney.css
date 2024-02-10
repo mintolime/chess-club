@@ -1,0 +1,25 @@
+.afisha__tourney {
+    display: grid;
+    grid-template-columns: 764px 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 64px;
+    justify-items: end;
+    grid-template-areas:
+        'afisha__tourney img'
+        'afisha__lection img';
+}
+
+
+@media screen and (max-width: 936px) {
+    .afisha__tourney {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 24px;
+        padding-left: 19px;
+        padding-right: 19px;
+        grid-template-areas:
+            'afisha__tourney'
+            'img'
+            'afisha__lection';
+    }
+}

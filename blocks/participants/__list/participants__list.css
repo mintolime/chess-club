@@ -3,4 +3,23 @@
   grid-template-columns: minmax(335px, 394px);
   justify-content: center;
   text-align: center;
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  /* opacity: 1; */
+  background-color: #fff;
+  border-radius: 60px;
+  transition: background-color 0.5s ease;
+}
+
+.active{
+  padding: 10px;
+  background-color: #e9ded4;
+  border-radius: 60px;
+  transition: background-color 0.5s ease;
+}
+
+@media screen and (max-width: 680px) {
+  .participants__list {
+    grid-template-columns: minmax(235px, 314px);
+  }
 }

@@ -8,3 +8,13 @@
   /* padding-bottom: 148px; */
   padding-bottom: 118px;
 }
+
+
+
+@media screen and (max-width: 376px) {
+  .content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 291px;
+  }
+}

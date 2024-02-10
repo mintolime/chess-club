@@ -1,4 +1,42 @@
 .participants {
-  display: flex;
-  gap: 31px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header participants_btn"
+    "participants__lists participants__lists";
+    overflow: hidden;
+    margin: 0 72px;
+}
+
+#participants_btn {
+  max-width: 330px;
+  grid-area: participants_btn;
+}
+
+.participants>h2 {
+  grid-area: header;
+}
+
+.participants>ul {
+  grid-area: participants__lists;
+}
+
+.participants__count_span{
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 680px) {
+  .participants {
+    margin-left: 19px;
+    margin-right: 19px;
+    padding-bottom: 100px;
+    grid-template-areas:
+      "header "
+      "participants__lists"
+      "participants_btn";
+  }
+  .participants>h2 {
+    padding-bottom: 40px;
+  }
 }
