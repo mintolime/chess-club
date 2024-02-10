@@ -2,9 +2,7 @@
   position: absolute;
   bottom: -15px;
   right: -50px;
-  /* transform: translate(72%,-39%); */
 }
-
 
 @media screen and (max-width: 376px) {
   .stages__plane {

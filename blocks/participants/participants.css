@@ -5,8 +5,8 @@
   grid-template-areas:
     "header participants_btn"
     "participants__lists participants__lists";
-    overflow: hidden;
-    margin: 0 72px;
+  overflow: hidden;
+  margin: 0 72px;
 }
 
 #participants_btn {
@@ -22,7 +22,7 @@
   grid-area: participants__lists;
 }
 
-.participants__count_span{
+.participants__count_span {
   opacity: 0.5;
 }
 
@@ -36,6 +36,7 @@
       "participants__lists"
       "participants_btn";
   }
+
   .participants>h2 {
     padding-bottom: 40px;
   }

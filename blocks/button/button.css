@@ -6,12 +6,12 @@
   cursor: pointer;
 }
 
-.button__items{
+.button__items {
   display: flex;
   gap: 6px;
 }
 
-.button__dots{
+.button__dots {
   display: block;
   cursor: pointer;
   border-radius: 50%;
@@ -20,6 +20,6 @@
   height: 10px;
 }
 
-.button__dots_active{
+.button__dots_active {
   background: #000;
 }

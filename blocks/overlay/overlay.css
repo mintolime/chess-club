@@ -12,6 +12,6 @@
   .overlay {
     left: -1px;
     background: url('./../../images/background-overlay-mob.png') no-repeat;
-    background-size:contain;
+    background-size: contain;
   }
 }
