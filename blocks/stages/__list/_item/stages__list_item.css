@@ -1,0 +1,5 @@
+.stages__list_item {
+  display: flex;
+  gap: 10px;
+  flex-direction: initial;
+}

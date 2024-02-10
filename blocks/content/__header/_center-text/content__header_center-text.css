@@ -1,6 +1,7 @@
 .content__header_center-text {
   padding: 0 94px;
 }
+
 @media screen and (max-width: 376px) {
   .content__header_center-text {
     padding-left: 60px;

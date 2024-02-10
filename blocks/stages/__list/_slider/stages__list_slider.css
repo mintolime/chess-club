@@ -1,0 +1,25 @@
+.stages__list_slider_active {
+  display: flex;
+}
+
+@media screen and (max-width: 376px) {
+  .stages__list_slider {
+    min-height: 300px;
+    align-items: start;
+    gap: 10px;
+    background: #e9ded4;
+    /* 24px */
+    list-style-type: none;
+    padding: 20px;
+    box-sizing: border-box;
+    position: static;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .stages__list_slider_active {
+    display: flex;
+    padding-top: 62px;
+  }
+}

@@ -1,8 +1,7 @@
 @media screen and (max-width: 376px) {
-  .button__box_flex-column{
+  .button__box_flex-column {
     display: flex;
     flex-direction: column;
     gap: 14px;
   }
 }
-

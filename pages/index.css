@@ -8,6 +8,7 @@
 @import url('../blocks/main/__page/main__page.css');
 @import url('../blocks/main/__text/main__text.css');
 @import url('../blocks/main/__links/main__links.css');
+@import url('../blocks/main/__link/main__link.css');
 @import url('../blocks/main/__text/_important-red/main__text_important-red.css');
 /* CONTENT */
 @import url('../blocks/content/content.css');
@@ -15,7 +16,6 @@
 @import url('../blocks/content/__header/_center-text/content__header_center-text.css');
 @import url('../blocks/content/__info/content__info.css');
 @import url('../blocks/content/__subtitle/content__subtitle.css');
-
 /* AFISHA  */
 @import url('../blocks/afisha/afisha.css');
 @import url('../blocks/afisha/__tourney/afisha__tourney.css');
@@ -41,20 +41,19 @@
 @import url('../blocks/overlay/overlay.css');
 @import url('../blocks/overlay/__chess-img/overlay__chess-img.css');
 @import url('../blocks/overlay/__background/overlay__background.css');
-
 /* STAGES  */
 @import url('../blocks/stages/stages.css');
 @import url('../blocks/stages/__info/stages__info.css');
 @import url('../blocks/stages/__header/stages__header.css');
 @import url('../blocks/stages/__lists/stages__lists.css');
 @import url('../blocks/stages/__list/stages__list.css');
+@import url('../blocks/stages/__list/_item/stages__list_item.css');
+@import url('../blocks/stages/__list/_slider/stages__list_slider.css');
 @import url('../blocks/stages/__numder/stages__numder.css');
 @import url('../blocks/stages/__list/_text/stages__list-text.css');
-/* @import url('../blocks/stages/__list/_with_plane/stages__list_with_plane.css'); */
 @import url('../blocks/stages/__plane/stages__plane.css');
 /* PARTICIPANTS */
 @import url('../blocks/participants/participants.css');
-/* @import url('../blocks/participants/__box/participants__box.css'); */
 @import url('../blocks/participants/__list/participants__list.css');
 @import url('../blocks/participants/__lists/participants__lists.css');
 @import url('../blocks/participants/__name/participants__name.css');
@@ -67,12 +66,3 @@
 /* ШАБЛОН */
 @import url('../blocks/');
 
-
-/* 
-@media screen and (max-width: 376px) {
-   {
-    padding-left: 19px;
-    padding-right: 19px;
-  }
-} 
-*/

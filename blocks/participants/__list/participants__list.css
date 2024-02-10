@@ -11,7 +11,7 @@
   transition: background-color 0.5s ease;
 }
 
-.active{
+.active {
   padding: 10px;
   background-color: #e9ded4;
   border-radius: 60px;
