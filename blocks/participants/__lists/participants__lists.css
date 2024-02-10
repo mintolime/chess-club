@@ -11,5 +11,7 @@
 @media screen and (max-width: 680px) {
   .participants__lists {
     column-gap: 0;
+    padding-top: 0;
+    padding-bottom: 11px;
   }
 }

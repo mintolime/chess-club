@@ -5,12 +5,22 @@
   padding-bottom: 200px;
 }
 
-#stages_btn{
+#stages_btn_box {
   display: none;
 }
 
 @media screen and (max-width: 680px) {
-  #stages_btn {
-   display: flex;
+  .stages {
+    gap: 0;
+    padding-bottom: 120px;
+  }
+
+  #stages_btn_box {
+    display: flex;
+    gap: 13px;
+  }
+
+  #stages_btn_box {
+    padding-top: 33px;
   }
 }

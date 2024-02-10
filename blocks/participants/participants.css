@@ -36,4 +36,7 @@
       "participants__lists"
       "participants_btn";
   }
+  .participants>h2 {
+    padding-bottom: 40px;
+  }
 }

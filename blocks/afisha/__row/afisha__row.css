@@ -4,4 +4,8 @@
         flex-direction: column;
         width: 100%;
     }
+    .afisha__row_flex {
+      border-bottom: 2px solid #D0D0D0;
+      flex-direction: row;
+    }
   }
